@@ -22,13 +22,13 @@ echo ===============   Transform all AFP resulted from all Transforms to PDF ===
 
 echo %submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files  e:\%%~pi\%%~ni.pdf" -s8040
 %submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files  e:\%%~pi\%%~ni.pdf" -s8040 
- ) >> C:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\all_afp2pdf_itm-driver.log 2>&1
+ ) >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\all_afp2pdf_itm-driver.log 2>&1
 
 echo ================================================
 
 
 echo Copy.... e:\OutputTransformPCL2AFP\win\output\out_AFP\TestFiles\*.pdf e:\OutputTransformPCL2AFP\win\output\out_PDF\TestFiles\  
-xcopy /y /s /d  e:\OutputTransformPCL2AFP\win\output\out_AFP\TestFiles\*.pdf e:\OutputTransformPCL2AFP\win\output\out_PDF\TestFiles\ >> C:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\all_afp2pdf_itm-driver.log 2>&1
+xcopy /y /s /d  e:\OutputTransformPCL2AFP\win\output\out_AFP\TestFiles\*.pdf e:\OutputTransformPCL2AFP\win\output\out_PDF\TestFiles\ >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\all_afp2pdf_itm-driver.log 2>&1
 
 
 echo EXIT
