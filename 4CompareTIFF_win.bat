@@ -24,10 +24,10 @@ ECHO %TESTOOLS%
 ECHO ====================================================
 
 
-		CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPCL2AFP\win\output\out_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> c:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\output_regression_diff.log
-echo CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPCL2AFP\win\output\out_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> c:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\files.log	
+		CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPCL2AFP\win\output\out_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\output_regression_diff.log
+echo CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPCL2AFP\win\output\out_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\files.log	
 	) else (
-		echo no output was generated for %%i %CMPDIR%\%%~pi>> c:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\output_notfound_diff.log
+		echo no output was generated for %%i %CMPDIR%\%%~pi>> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\output_notfound_diff.log
 	)	
 )
 popd
