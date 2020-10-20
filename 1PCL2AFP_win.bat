@@ -11,7 +11,7 @@ set folderPCL=e:\TestFiles\PCL\
 
 echo =============    Transform files from dir and subdir of : %folderPCL% ======================================
 
-set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_win%
+set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_PCL_win%
 echo %itm_ipaddress%
 
 
