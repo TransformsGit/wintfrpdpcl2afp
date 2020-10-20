@@ -11,7 +11,7 @@ set folderPCL=e:\TestFiles\PCL\
 
 echo =============    Transform files from dir and subdir of : %folderPCL% ======================================
 
-set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_PCL_win%
+set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_PCL2AFP_win%
 echo %itm_ipaddress%
 
 
@@ -38,7 +38,7 @@ echo %submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_f
 
  
 echo ================================================
- ) >> C:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\pcl2afp_itm-driver.log 2>&1
+ ) >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\pcl2afp_itm-driver.log 2>&1
 
 
 echo EXIT

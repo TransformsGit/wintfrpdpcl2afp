@@ -17,14 +17,14 @@ ECHO File extention is **************: fileextension=%%~xi
   "c:\Program Files\gs\gs9.27\bin\gswin64c.exe" -dNOPAUSE -q -sDEVICE=tiffg4 -dBATCH -sOutputFile=e:\%%~pi\%%~ni.tif %%i
   echo ========================  
 
- ) >> C:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\all_PDF2TIFF_itm-driver.log 2>&1
+ ) >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\all_PDF2TIFF_itm-driver.log 2>&1
 
 
 
 echo ================================================
 
 echo Copy.... e:\OutputTransformPCL2AFP\win\output\out_PDF\TestFiles\*.tif e:\OutputTransformPCL2AFP\win\output\out_TIFF\MasterFiles\  
-xcopy /y /s /d  e:\OutputTransformPCL2AFP\win\output\out_PDF\TestFiles\*.tif e:\OutputTransformPCL2AFP\win\output\out_TIFF\MasterFiles\ >> C:\Users\Administrator\Transforms\Logs\LogsTransformPCL2AFP\win\all_PDF2TIFF_itm-driver.log 2>&1
+xcopy /y /s /d  e:\OutputTransformPCL2AFP\win\output\out_PDF\TestFiles\*.tif e:\OutputTransformPCL2AFP\win\output\out_TIFF\MasterFiles\ >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\all_PDF2TIFF_itm-driver.log 2>&1
 
 
 echo EXIT
