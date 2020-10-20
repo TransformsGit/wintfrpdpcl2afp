@@ -1,10 +1,10 @@
 @echo off
 REM script must be in Test tools installation directory
-time /T >> regr.log
+time /T >> C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\regr.log
 
 
 set TTDIR=c:\TESTTOOLS\
-set MASTERDIR=e:\MasterFiles\
+set MASTERDIR=e:\MasterFiles\PCL\
 set CMPDIR=e:\OutputTransformPCL2AFP\win\output\out_TIFF\
 
 echo running tiffcompare >> regr.log
@@ -32,5 +32,4 @@ echo CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPCL2AFP\win\output\out_
 )
 popd
 
-time /T >> regr.log
-
+time /T >>C:\Users\Administrator\Transforms\TestPCL2AFP\Log\win\regr.log
